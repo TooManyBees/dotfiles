@@ -3,3 +3,4 @@
 git config --global --add alias.st status
 git config --global --add alias.co checkout
 git config --global --add alias.br branch
+git config --global --add push.default current
