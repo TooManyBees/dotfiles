@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export EDITOR=vim
+echo "export EDITOR=vim" >> ~/.bashrc
 
 git config --global --add alias.st status
 git config --global --add alias.co checkout
