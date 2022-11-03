@@ -2,8 +2,6 @@
 
 echo "export EDITOR=vim" >> ~/.bashrc
 
-export CODESPACES_BROWSER_OPEN_OPT_OUT=1
-
 git config --global --add alias.st status
 git config --global --add alias.co checkout
 git config --global --add alias.br branch
