@@ -6,3 +6,9 @@ git config --global --add alias.st status
 git config --global --add alias.co checkout
 git config --global --add alias.br branch
 git config --global --add push.default current
+
+cat << RUBY | tee ~/.irbrc ~/.pryrc 
+if defined?(enable_query_logging)
+  enable_query_logging
+end
+RUBY
